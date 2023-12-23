@@ -26,8 +26,9 @@ to work as your c2.
 ##### Install go dependencies:
 
 ```
-    go get -v -u github.com/go-telegram-bot-api/telegram-bot-api
-    go get -v -u github.com/kbinani/screenshot
+go install github.com/go-telegram-bot-api/telegram-bot-api@latest
+go install github.com/kbinani/screenshot@latest
+
 ```
 
 ##### Get your bot up and running:
